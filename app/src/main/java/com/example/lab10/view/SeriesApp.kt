@@ -44,7 +44,6 @@ fun SeriesApp() {
     val navController = rememberNavController()
 
     Scaffold(
-        modifier = Modifier.padding(top=40.dp),
         topBar =    { BarraSuperior() },
         bottomBar = { BarraInferior(navController) },
         floatingActionButton = { BotonFAB(navController, servicio) },
