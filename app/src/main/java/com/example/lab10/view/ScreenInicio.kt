@@ -10,6 +10,6 @@ import androidx.compose.ui.Modifier
 @Composable
 fun ScreenInicio() {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("Bienvenido a Series App")
+        Text("Bienvenido a Upad App")
     }
 }
